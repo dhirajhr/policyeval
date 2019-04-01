@@ -10,6 +10,8 @@
 * The format of the policy file is as follows:
 ![alt text](https://i.imgur.com/5ElATsT.png "Policy File")
 
+# Run
+* The project can be executed by running a fat jar file which includes all the dependencies. The *policyeval.jar* file is present in *Executable Jars* folder.
 
 
 # Dependencies
