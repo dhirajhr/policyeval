@@ -1,12 +1,20 @@
-# policyeval
+# policyeval - Policy Evaluator and Parser
 # Table of Contents
 1. [Dependencies](README.md#dependencies)
 1. [Data Structure Used](README.md#datastructure)
 1. [Approach](README.md#approach)
 
+# Project
+* The Policy Evaluator parses JSON Policy File as a list of policies. 
+* The User specifies an input which is evaluated against the policies and the resulting Action becomes the output.
+* The format of the policy file is as follows:
+![alt text](https://i.imgur.com/5ElATsT.png "Policy File")
+
+
 
 # Dependencies
 
+1. The project uses Jackson Library to parse input JSON
 1. The source code is written in Java 8 and is called Main.java and resides the src folder.
 2. src also contain Prescriber.java which is a POJO class that converts each csv line into an object.
 3. The compilation instructions are specified in the run.sh file.
