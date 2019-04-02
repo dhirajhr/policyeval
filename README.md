@@ -12,12 +12,12 @@
 ![alt text](https://i.imgur.com/5ElATsT.png "Policy File")
 
 # Run
-* The project can be executed by running a fat jar file which includes all the dependencies. The *policyeval.jar* file is present in *Executable Jars* folder.
+* The project can be executed by running a fat jar file which includes all the dependencies. The *policyeval.jar* file is present in *Executable Jar* folder.
 * It can be executed using two different ways: File and Console
 * File Mode: Specify three command line arguments (path to policy.json, input file path, output file path)
-* Command: **java -jar policyeval.jar path_policy path_input path_output
+* Command: **java -jar policyeval.jar path_policy path_input path_output**
 * Console Mode: Specify just One argument (path to policy.json)
-* Command: **java -jar policyeval.jar path_policy
+* Command: **java -jar policyeval.jar path_policy**
 
 # Sample
 * Input File : 
