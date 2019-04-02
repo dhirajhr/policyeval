@@ -42,24 +42,24 @@
 
 The directory structure for your repo should look like this:
 
-├───.settings
-├───src
-│   ├───main
-│   │   ├───java
-│   │   └───resources
-│   └───test
-│       ├───java
-│       └───resources
-└───target
-    ├───archive-tmp
-    ├───classes
-    ├───maven-archiver
-    ├───maven-status
-    │   └───maven-compiler-plugin
-    │       ├───compile
-    │       │   └───default-compile
-    │       └───testCompile
-    │           └───default-testCompile
-    └───test-classes
+    ├───.settings
+    ├───src
+    │   ├───main
+    │   │   ├───java
+    │   │   └───resources
+    │   └───test
+    │       ├───java
+    │       └───resources
+    └───target
+        ├───archive-tmp
+        ├───classes
+        ├───maven-archiver
+        ├───maven-status
+        │   └───maven-compiler-plugin
+        │       ├───compile
+        │       │   └───default-compile
+        │       └───testCompile
+        │           └───default-testCompile
+        └───test-classes
 
 Email: dramnani@usc.edu
